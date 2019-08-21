@@ -116,7 +116,7 @@ public class PlayCommand extends Command implements AudioEventListener {
                     }
                 });
 
-                        player.playTrack(trackScheduler);
+
 
 
 
