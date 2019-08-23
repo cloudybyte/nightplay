@@ -33,3 +33,508 @@
 12:14:30.015 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: attempting to load library at C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566468869879\connector.dll
 12:14:30.084 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library connector: successfully loaded.
 12:14:30.113 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.playback.AudioFrameBuffer - Running rebuilder AudioFrameVolumeChanger on 0 buffered frames.
+15:16:25.112 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:16:25.285 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:16:25.658 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:16:25.659 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:16:25.660 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:16:31.616 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a51f1bdf5fc4a9-DUS]
+15:16:31.677 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+15:16:32.137 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+15:16:32.138 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+15:16:32.139 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+15:16:32.140 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-k3dd\",{\"micros\":0.0}]"]
+15:16:32.320 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-k3dd\",{\"micros\":41336,\"calls\":[\"discord-sessions-prd-1-4\",{\"micros\":34383,\"calls\":[\"start_session\",{\"micros\":32503,\"calls\":[\"api-prd-main-cd8f\",{\"micros\":23854,\"calls\":[\"get_user\",{\"micros\":3520},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":1611},\"coros_wait\",{\"micros\":0}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":195,\"calls\":[]}]}]}]"]
+15:16:32.323 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+15:16:32.417 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+15:16:32.418 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+15:16:56.651 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a51fb95842c4a9-DUS]
+15:16:56.782 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+15:16:57.355 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+15:16:58.594 [JDA [0 / 1] MainWS-ReadThread] ERROR g.n.bot.commands.music.PlayCommand - Play command was used!
+15:16:58.633 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+15:16:59.006 [JDA [0 / 1] MainWS-ReadThread] ERROR net.dv8tion.jda.core.JDA - One of the EventListeners had an uncaught exception
+java.lang.ExceptionInInitializerError: null
+	at gq.not11.bot.commands.music.PlayCommand.run(PlayCommand.java:63)
+	at gq.not11.bot.core.command.CommandHandler.onGenericGuildMessage(CommandHandler.java:36)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:662)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:101)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.log4j.Logger are in unnamed module of loader 'app')
+	at gq.not11.bot.core.audio.PlayerManager.<clinit>(PlayerManager.java:33)
+	... 17 common frames omitted
+15:22:01.106 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:22:01.175 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:22:01.230 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:22:01.230 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:22:01.232 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:22:02.955 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a52733c89bc4a4-DUS]
+15:22:02.981 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+15:22:03.384 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+15:22:03.385 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+15:22:03.385 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+15:22:03.387 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-v9s2\",{\"micros\":0.0}]"]
+15:22:03.544 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-v9s2\",{\"micros\":20689,\"calls\":[\"discord-sessions-prd-1-18\",{\"micros\":17706,\"calls\":[\"start_session\",{\"micros\":16521,\"calls\":[\"api-prd-main-rvcm\",{\"micros\":12907,\"calls\":[\"get_user\",{\"micros\":2281},\"add_authorized_ip\",{\"micros\":7},\"get_guilds\",{\"micros\":1935},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":1,\"calls\":[]},\"presence_connect\",{\"micros\":3,\"calls\":[]}]}]}]"]
+15:22:03.545 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+15:22:03.591 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+15:22:03.596 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+15:22:22.775 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a527af9c80c4a4-DUS]
+15:22:23.066 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+15:22:23.656 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+15:22:30.963 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+15:22:30.963 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:22:30.965 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:22:30.965 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@14bed420' to the list of builder helpers.
+15:22:30.966 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:22:30.966 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+15:22:30.974 [JDA [0 / 1] MainWS-ReadThread] ERROR g.n.bot.commands.music.PlayCommand - Play command was used!
+15:22:31.121 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+15:22:31.180 [JDA [0 / 1] MainWS-ReadThread] ERROR net.dv8tion.jda.core.JDA - One of the EventListeners had an uncaught exception
+java.lang.ExceptionInInitializerError: null
+	at gq.not11.bot.commands.music.PlayCommand.run(PlayCommand.java:73)
+	at gq.not11.bot.core.command.CommandHandler.onGenericGuildMessage(CommandHandler.java:36)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:662)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:101)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.log4j.Logger are in unnamed module of loader 'app')
+	at gq.not11.bot.core.audio.PlayerManager.<clinit>(PlayerManager.java:33)
+	... 17 common frames omitted
+15:30:01.630 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:30:01.702 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:30:01.759 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:30:01.760 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:30:01.762 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:30:02.028 [Thread-0] DEBUG io.sentry.connection.AsyncConnection - Gracefully shutting down Sentry async threads.
+15:30:02.853 [Thread-0] DEBUG io.sentry.connection.AsyncConnection - Shutdown finished.
+15:30:41.149 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:30:41.219 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:30:41.260 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:30:41.260 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:30:41.262 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:30:42.337 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a533e1c9b9c4e0-DUS]
+15:30:42.363 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+15:30:42.769 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+15:30:42.770 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+15:30:42.771 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+15:30:42.773 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-m5fs\",{\"micros\":0.0}]"]
+15:30:42.943 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-m5fs\",{\"micros\":39627,\"calls\":[\"discord-sessions-prd-1-19\",{\"micros\":24382,\"calls\":[\"start_session\",{\"micros\":22945,\"calls\":[\"api-prd-main-q5lz\",{\"micros\":10600,\"calls\":[\"get_user\",{\"micros\":3698},\"add_authorized_ip\",{\"micros\":4},\"get_guilds\",{\"micros\":2619},\"coros_wait\",{\"micros\":0}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":1,\"calls\":[]}]}]}]"]
+15:30:42.945 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+15:30:42.976 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+15:30:42.977 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+15:36:07.860 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:36:07.976 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:36:08.043 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:36:08.044 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:36:08.047 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:36:09.334 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a53bdda8bcc4ae-DUS]
+15:36:09.373 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+15:36:09.844 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+15:36:09.845 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+15:36:09.846 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+15:36:09.848 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-q9pq\",{\"micros\":0.0}]"]
+15:36:11.114 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-q9pq\",{\"micros\":1124889,\"calls\":[\"discord-sessions-prd-1-8\",{\"micros\":1117963,\"calls\":[\"start_session\",{\"micros\":14091,\"calls\":[\"api-prd-main-6jvm\",{\"micros\":10996,\"calls\":[\"get_user\",{\"micros\":4018},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":1645},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":1,\"calls\":[]},\"presence_connect\",{\"micros\":281854,\"calls\":[]}]}]}]"]
+15:36:11.116 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+15:36:11.153 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+15:36:11.154 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+15:36:22.172 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a53c2dd90ec4ae-DUS]
+15:36:22.460 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+15:36:22.953 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+15:36:24.485 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+15:36:24.486 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:36:24.488 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:36:24.489 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@2bb78fc7' to the list of builder helpers.
+15:36:24.489 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:36:24.490 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+15:36:24.538 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+15:36:24.630 [JDA [0 / 1] MainWS-ReadThread] ERROR net.dv8tion.jda.core.JDA - One of the EventListeners had an uncaught exception
+java.lang.ExceptionInInitializerError: null
+	at gq.not11.bot.commands.music.PlayCommand.run(PlayCommand.java:69)
+	at gq.not11.bot.core.command.CommandHandler.onGenericGuildMessage(CommandHandler.java:36)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:662)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:101)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+Caused by: java.lang.ClassCastException: class ch.qos.logback.classic.Logger cannot be cast to class org.apache.log4j.Logger (ch.qos.logback.classic.Logger and org.apache.log4j.Logger are in unnamed module of loader 'app')
+	at gq.not11.bot.core.audio.PlayerManager.<clinit>(PlayerManager.java:33)
+	... 17 common frames omitted
+15:38:20.790 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:38:20.884 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:38:20.964 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:38:20.969 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:38:20.971 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:38:22.257 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a53f1c7adfc4a4-DUS]
+15:38:22.299 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+15:38:22.715 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+15:38:22.716 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+15:38:22.717 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+15:38:22.719 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-xjp2\",{\"micros\":0.0}]"]
+15:38:23.433 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-xjp2\",{\"micros\":590209,\"calls\":[\"discord-sessions-prd-1-7\",{\"micros\":588165,\"calls\":[\"start_session\",{\"micros\":12342,\"calls\":[\"api-prd-main-nz1j\",{\"micros\":6361,\"calls\":[\"get_user\",{\"micros\":1816},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":2009},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":1,\"calls\":[]},\"presence_connect\",{\"micros\":261,\"calls\":[]}]}]}]"]
+15:38:23.436 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+15:38:23.480 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+15:38:23.481 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+15:38:32.785 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a53f5e3fdfc4a4-DUS]
+15:38:32.873 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+15:38:33.323 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+15:38:36.527 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+15:38:36.527 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:38:36.530 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:38:36.530 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@24c34f82' to the list of builder helpers.
+15:38:36.531 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:38:36.531 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+15:38:36.574 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+15:38:38.284 [lava-daemon-pool-info-loader-6-thread-1] DEBUG c.s.d.l.p.DefaultAudioPlayerManager - Loaded a track with identifier https://youtu.be/SJ5eW0xRgOA using YoutubeAudioSourceManager.
+15:38:38.287 [lava-daemon-pool-info-loader-6-thread-1] INFO  g.not11.bot.core.audio.PlayerManager - [0;32mTrack was loaded! Now playing: https://youtu.be/SJ5eW0xRgOA Title: NEFFEX - Hungover 🍻 [Copyright Free][0m
+15:38:38.288 [lava-daemon-pool-info-loader-6-thread-1] DEBUG c.s.d.lavaplayer.player.AudioPlayer - Firing an event with class TrackStartEvent
+15:38:38.291 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.p.LocalAudioTrackExecutor - Starting to play track SJ5eW0xRgOA locally with listener com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayer@1b00353f
+15:38:38.832 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.s.youtube.YoutubeAudioTrack - Starting track from URL: https://r4---sn-h0jeen7d.googlevideo.com/videoplayback?expire=1566502716&ei=3JpeXYP8HdHpgAf5uqjIDA&ip=46.93.50.252&id=o-ANSyoDjc-N1c40yzq9mlEQEADX81I9Gl_JwcsGRvN-X-&itag=251&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-h0jeen7d%2Csn-4g5e6nl6&ms=au%2Conr&mv=m&mvi=3&pl=26&initcwndbps=1186250&mime=audio%2Fwebm&gir=yes&clen=3679788&dur=220.781&lmt=1541590427520486&mt=1566481015&fvip=4&keepalive=yes&c=WEB&txp=5511222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRQIhAIvx-XwDdXfenwpVi7TjHPsCg-m_LA4WoQO6YH0yGCIOAiAUvJd7TVLC7JezFWaxL5c8IbA0aciYLRXE2ESa0Kf16g%3D%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIhAKZrtcwao28Rs7S-eXneYMLn9wJ-F5k56FkAvZ9drtzEAiBKLkBDfNWZbHRii6oJ-zxAr2R-NYdA7xsT4-tTAs6eYw%3D%3D
+15:38:39.076 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.c.m.MatroskaAudioTrack - Starting to play track with codec A_OPUS
+15:38:39.085 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.c.common.OpusPacketRouter - Enabling reencode mode on opus track.
+15:38:39.089 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$175/0x000000010031d840@443f23ea
+15:38:39.090 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.n.ResourceNativeLibraryBinaryProvider - Native library libmpg123-0: trying to find from resources at /natives/win-x86-64/libmpg123-0.dll with com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader as classloader reference
+15:38:39.092 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: detected C:\Users\Ole\AppData\Local\Temp\lava-jni-natives as base directory for extraction.
+15:38:39.095 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: extraction directory C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481119093 does not exist, creating.
+15:38:39.181 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: attempting to load library at C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481119093\libmpg123-0.dll
+15:38:39.351 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: successfully loaded.
+15:38:39.352 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library connector: loading with filter null
+15:38:39.352 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.n.ResourceNativeLibraryBinaryProvider - Native library connector: trying to find from resources at /natives/win-x86-64/connector.dll with com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader as classloader reference
+15:38:39.352 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: detected C:\Users\Ole\AppData\Local\Temp\lava-jni-natives as base directory for extraction.
+15:38:39.353 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: extraction directory C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481119352 does not exist, creating.
+15:38:39.918 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a53f8a2ce9c4a4-DUS]
+15:38:40.377 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: attempting to load library at C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481119352\connector.dll
+15:38:40.572 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library connector: successfully loaded.
+15:38:40.624 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.playback.AudioFrameBuffer - Running rebuilder AudioFrameVolumeChanger on 0 buffered frames.
+15:40:25.341 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:40:25.427 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:40:25.485 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:40:25.486 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:40:25.488 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:40:26.484 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a54224ddbfc4c2-DUS]
+15:40:26.509 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+15:40:26.936 [JDA [0 / 1] MainWS-ReadThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+15:40:26.937 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+15:40:26.940 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+15:40:26.941 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-495n\",{\"micros\":0.0}]"]
+15:40:27.104 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-495n\",{\"micros\":26375,\"calls\":[\"discord-sessions-prd-1-25\",{\"micros\":25440,\"calls\":[\"start_session\",{\"micros\":22686,\"calls\":[\"api-prd-main-wc9g\",{\"micros\":11240,\"calls\":[\"get_user\",{\"micros\":2525},\"add_authorized_ip\",{\"micros\":6},\"get_guilds\",{\"micros\":3860},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":1,\"calls\":[]}]}]}]"]
+15:40:27.105 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+15:40:27.129 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+15:40:27.130 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+15:40:34.554 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+15:40:34.893 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a54257ecfbc4c2-DUS]
+15:40:35.028 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+15:40:36.653 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+15:40:36.654 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:40:36.656 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:40:36.657 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@4b5b9c98' to the list of builder helpers.
+15:40:36.657 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:40:36.657 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+15:40:36.687 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+15:40:37.632 [lava-daemon-pool-info-loader-6-thread-1] DEBUG c.s.d.l.p.DefaultAudioPlayerManager - Loaded a track with identifier https://youtu.be/SJ5eW0xRgOA using YoutubeAudioSourceManager.
+15:40:37.634 [lava-daemon-pool-info-loader-6-thread-1] INFO  g.not11.bot.core.audio.PlayerManager - [0;32mTrack was loaded! Now playing: https://youtu.be/SJ5eW0xRgOA Title: NEFFEX - Hungover 🍻 [Copyright Free][0m
+15:40:37.635 [lava-daemon-pool-info-loader-6-thread-1] DEBUG c.s.d.lavaplayer.player.AudioPlayer - Firing an event with class TrackStartEvent
+15:40:37.637 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.p.LocalAudioTrackExecutor - Starting to play track SJ5eW0xRgOA locally with listener com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayer@2d0f34a2
+15:40:37.844 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a5426b8de3c4c2-DUS]
+15:40:38.223 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.s.youtube.YoutubeAudioTrack - Starting track from URL: https://r4---sn-h0jeen7d.googlevideo.com/videoplayback?expire=1566502835&ei=U5teXfHuMo3p1gLF1YGADA&ip=46.93.50.252&id=o-ALeHOzuKl7hr4rg0VZXtHZZ4UW8Acfoyr4LxKr1jbxix&itag=251&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-h0jeen7d%2Csn-4g5ednek&ms=au%2Conr&mv=m&mvi=3&pl=26&initcwndbps=1176250&mime=audio%2Fwebm&gir=yes&clen=3679788&dur=220.781&lmt=1541590427520486&mt=1566481153&fvip=4&keepalive=yes&c=WEB&txp=5511222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRAIgPit3VWQs3mISSuxwISSQAFp97aRMZHJBcs1SyHLhqVgCIDlv1SSJ62O8t8vRxy9QxWMONyxQhNlUF198H_endGyK&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIgSS-UX538rgwu7RjiBUvER615OcNu5XLQWIBe_-j4fSACIQC_LSLkNbh2wZqYDOlgN0UL1iv-V976Qmwf_EwG_KQ4Yw%3D%3D
+15:40:38.299 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.c.m.MatroskaAudioTrack - Starting to play track with codec A_OPUS
+15:40:38.303 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.c.common.OpusPacketRouter - Enabling reencode mode on opus track.
+15:40:38.306 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$175/0x000000010031d840@17ca2afe
+15:40:38.308 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.n.ResourceNativeLibraryBinaryProvider - Native library libmpg123-0: trying to find from resources at /natives/win-x86-64/libmpg123-0.dll with com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader as classloader reference
+15:40:38.309 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: detected C:\Users\Ole\AppData\Local\Temp\lava-jni-natives as base directory for extraction.
+15:40:38.310 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: extraction directory C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481238309 does not exist, creating.
+15:40:38.320 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: attempting to load library at C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481238309\libmpg123-0.dll
+15:40:38.337 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: successfully loaded.
+15:40:38.337 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library connector: loading with filter null
+15:40:38.338 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.n.ResourceNativeLibraryBinaryProvider - Native library connector: trying to find from resources at /natives/win-x86-64/connector.dll with com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader as classloader reference
+15:40:38.338 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: detected C:\Users\Ole\AppData\Local\Temp\lava-jni-natives as base directory for extraction.
+15:40:38.338 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: extraction directory C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481238338 does not exist, creating.
+15:40:38.377 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: attempting to load library at C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481238338\connector.dll
+15:40:38.430 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library connector: successfully loaded.
+15:40:38.435 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.playback.AudioFrameBuffer - Running rebuilder AudioFrameVolumeChanger on 0 buffered frames.
+15:49:46.056 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+15:49:46.170 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:49:46.259 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:49:46.260 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+15:49:46.262 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:49:48.601 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a54fde1a5bc4d1-DUS]
+15:49:48.631 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+15:49:49.071 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+15:49:49.072 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+15:49:49.073 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+15:49:49.074 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-nz4x\",{\"micros\":0.0}]"]
+15:49:49.212 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-nz4x\",{\"micros\":13237,\"calls\":[\"discord-sessions-prd-1-17\",{\"micros\":12367,\"calls\":[\"start_session\",{\"micros\":9042,\"calls\":[\"api-prd-main-gj2g\",{\"micros\":6170,\"calls\":[\"get_user\",{\"micros\":1834},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":1749},\"coros_wait\",{\"micros\":2}]}]},\"guilds_connect\",{\"micros\":1,\"calls\":[]},\"presence_connect\",{\"micros\":2133,\"calls\":[]}]}]}]"]
+15:49:49.218 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+15:49:49.255 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+15:49:49.255 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+15:49:55.127 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a55006ef59c4d1-DUS]
+15:49:55.195 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+15:49:55.687 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+15:49:58.021 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+15:49:58.021 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:49:58.023 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:49:58.024 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@3adfa47e' to the list of builder helpers.
+15:49:58.024 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:49:58.024 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+15:49:58.073 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+15:49:58.311 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+15:49:58.311 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+15:49:58.314 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+15:49:58.314 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@11531e45' to the list of builder helpers.
+15:49:58.314 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+15:49:58.315 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+15:49:59.450 [lava-daemon-pool-info-loader-6-thread-1] DEBUG c.s.d.l.p.DefaultAudioPlayerManager - Loaded a track with identifier https://youtu.be/SJ5eW0xRgOA using YoutubeAudioSourceManager.
+15:49:59.454 [lava-daemon-pool-info-loader-6-thread-1] INFO  g.not11.bot.core.audio.PlayerManager - [0;32mTrack was loaded! Now playing: https://youtu.be/SJ5eW0xRgOA Title: NEFFEX - Hungover 🍻 [Copyright Free][0m
+15:49:59.454 [lava-daemon-pool-info-loader-6-thread-1] DEBUG c.s.d.lavaplayer.player.AudioPlayer - Firing an event with class TrackStartEvent
+15:49:59.457 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.p.LocalAudioTrackExecutor - Starting to play track SJ5eW0xRgOA locally with listener com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayer@f7c2355
+15:49:59.996 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.s.youtube.YoutubeAudioTrack - Starting track from URL: https://r4---sn-h0jeen7d.googlevideo.com/videoplayback?expire=1566503397&ei=hZ1eXa-EKNDRgAfRoorwCw&ip=46.93.50.252&id=o-AEdN-E7hW0bbUopDWjbz4ZoIOxSJ-1aOu9wvcACdYGVo&itag=251&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-h0jeen7d%2Csn-4g5e6nl6&ms=au%2Conr&mv=m&mvi=3&pl=26&initcwndbps=1117500&mime=audio%2Fwebm&gir=yes&clen=3679788&dur=220.781&lmt=1541590427520486&mt=1566481754&fvip=4&keepalive=yes&c=WEB&txp=5511222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRQIhAI_wmFas6csBVDA99R-YikwBDZnbi1igimuw0ZG0rxLaAiA9e9o8ZPrXIevWxEPU8minlM6BDuiMwGEjCN7VEaELyA%3D%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIhAMPprOJPZQKaaRBgeuf72wTKfoxEG5FMimr9MHyR3hMfAiAbbjGLUU3qzBxahMvDFIqBaPqXS7GyhjvMf48kgLI3Yw%3D%3D
+15:50:00.101 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.c.m.MatroskaAudioTrack - Starting to play track with codec A_OPUS
+15:50:00.123 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.c.common.OpusPacketRouter - Enabling reencode mode on opus track.
+15:50:00.126 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$175/0x00000001003af040@3f8b8f4f
+15:50:00.127 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.n.ResourceNativeLibraryBinaryProvider - Native library libmpg123-0: trying to find from resources at /natives/win-x86-64/libmpg123-0.dll with com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader as classloader reference
+15:50:00.128 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: detected C:\Users\Ole\AppData\Local\Temp\lava-jni-natives as base directory for extraction.
+15:50:00.129 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: extraction directory C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481800128 does not exist, creating.
+15:50:00.151 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: attempting to load library at C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481800128\libmpg123-0.dll
+15:50:00.430 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library libmpg123-0: successfully loaded.
+15:50:00.430 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library connector: loading with filter null
+15:50:00.430 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.n.ResourceNativeLibraryBinaryProvider - Native library connector: trying to find from resources at /natives/win-x86-64/connector.dll with com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader as classloader reference
+15:50:00.430 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: detected C:\Users\Ole\AppData\Local\Temp\lava-jni-natives as base directory for extraction.
+15:50:00.431 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: extraction directory C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481800430 does not exist, creating.
+15:50:00.467 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.l.c.natives.NativeLibraryLoader - Native library connector: attempting to load library at C:\Users\Ole\AppData\Local\Temp\lava-jni-natives\1566481800430\connector.dll
+15:50:00.644 [lava-daemon-pool-playback-5-thread-1] INFO  c.s.l.c.natives.NativeLibraryLoader - Native library connector: successfully loaded.
+15:50:00.653 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.playback.AudioFrameBuffer - Running rebuilder AudioFrameVolumeChanger on 0 buffered frames.
+15:50:00.696 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a550293d3ec4d1-DUS]
+15:53:06.249 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.io.PersistentHttpStream - Encountered retriable exception on url https://r4---sn-h0jeen7d.googlevideo.com/videoplayback?expire=1566503397&ei=hZ1eXa-EKNDRgAfRoorwCw&ip=46.93.50.252&id=o-AEdN-E7hW0bbUopDWjbz4ZoIOxSJ-1aOu9wvcACdYGVo&itag=251&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-h0jeen7d%2Csn-4g5e6nl6&ms=au%2Conr&mv=m&mvi=3&pl=26&initcwndbps=1117500&mime=audio%2Fwebm&gir=yes&clen=3679788&dur=220.781&lmt=1541590427520486&mt=1566481754&fvip=4&keepalive=yes&c=WEB&txp=5511222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=ALgxI2wwRQIhAI_wmFas6csBVDA99R-YikwBDZnbi1igimuw0ZG0rxLaAiA9e9o8ZPrXIevWxEPU8minlM6BDuiMwGEjCN7VEaELyA%3D%3D&lsparams=mm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AHylml4wRQIhAMPprOJPZQKaaRBgeuf72wTKfoxEG5FMimr9MHyR3hMfAiAbbjGLUU3qzBxahMvDFIqBaPqXS7GyhjvMf48kgLI3Yw%3D%3D.
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:264)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:259)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1314)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:839)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:198)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:176)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.internalRead(PersistentHttpStream.java:172)
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.read(PersistentHttpStream.java:185)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.sedmelluq.discord.lavaplayer.container.matroska.format.MutableMatroskaBlock.getNextFrameBuffer(MutableMatroskaBlock.java:54)
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.processFrameInBlock(MatroskaStreamingFile.java:372)
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.parseClusterSimpleBlock(MatroskaStreamingFile.java:336)
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.parseNextCluster(MatroskaStreamingFile.java:321)
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.provideFrames(MatroskaStreamingFile.java:297)
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.lambda$process$0(MatroskaAudioTrack.java:40)
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.executeProcessingLoop(LocalAudioTrackExecutor.java:257)
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.process(MatroskaAudioTrack.java:39)
+	at com.sedmelluq.discord.lavaplayer.track.DelegatedAudioTrack.processDelegate(DelegatedAudioTrack.java:27)
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.processStatic(YoutubeAudioTrack.java:77)
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:69)
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:90)
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:349)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:81)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:352)
+		... 30 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	... 26 common frames omitted
+15:53:41.445 [lava-daemon-pool-playback-5-thread-1] DEBUG c.s.d.l.t.p.LocalAudioTrackExecutor - Playing track SJ5eW0xRgOA finished or was stopped.
+15:53:41.446 [JDA [0 / 1] AudioConnection Guild: 579340391938261003 Sending Thread] DEBUG c.s.d.lavaplayer.player.AudioPlayer - Firing an event with class TrackEndEvent
+23:05:01.306 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+23:05:01.442 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:05:01.629 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:05:01.630 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+23:05:01.632 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:05:03.926 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7cd6eef66c4d6-DUS]
+23:05:03.968 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+23:05:04.414 [JDA [0 / 1] MainWS-ReadThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+23:05:04.414 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+23:05:04.418 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+23:05:04.418 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-g2l4\",{\"micros\":0.0}]"]
+23:05:04.596 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-g2l4\",{\"micros\":48398,\"calls\":[\"discord-sessions-prd-1-13\",{\"micros\":46673,\"calls\":[\"start_session\",{\"micros\":39714,\"calls\":[\"api-prd-main-p9sn\",{\"micros\":36422,\"calls\":[\"get_user\",{\"micros\":1955},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":1728},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":1,\"calls\":[]}]}]}]"]
+23:05:04.601 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+23:05:04.644 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+23:05:04.645 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+23:05:22.024 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+23:05:22.024 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:05:22.026 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:05:22.026 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@106cd754' to the list of builder helpers.
+23:05:22.026 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:05:22.026 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+23:05:22.199 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7cde1f811c4d6-DUS]
+23:06:27.223 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+23:06:27.223 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:06:27.226 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:06:27.226 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@74faef1d' to the list of builder helpers.
+23:06:27.228 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:06:27.228 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+23:06:27.435 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7cf797900c4d6-DUS]
+23:08:05.518 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+23:08:05.519 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:08:05.521 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:08:05.522 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@191e1842' to the list of builder helpers.
+23:08:05.523 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:08:05.523 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+23:08:06.003 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+23:08:06.865 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+23:08:07.967 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7d1dfdce7c4d6-DUS]
+23:08:42.502 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:42.504 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Disconnected.
+Close code: 4014
+23:08:42.715 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Sending resume payload...
+23:08:42.753 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:42.754 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Session is no longer valid.
+Close code: 4006
+23:08:43.128 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:08:43.140 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+23:08:43.602 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+23:08:46.130 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:46.130 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Disconnected.
+Close code: 4014
+23:08:46.301 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Sending resume payload...
+23:08:46.329 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:46.329 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Session is no longer valid.
+Close code: 4006
+23:08:46.662 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:08:46.674 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+23:08:47.149 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+23:08:51.720 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:51.721 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Disconnected.
+Close code: 4014
+23:08:51.910 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Sending resume payload...
+23:08:51.938 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:51.938 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Session is no longer valid.
+Close code: 4006
+23:08:52.204 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:08:52.216 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+23:08:52.650 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+23:08:54.053 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:54.053 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Disconnected.
+Close code: 4014
+23:08:54.229 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Sending resume payload...
+23:08:54.256 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:54.256 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Session is no longer valid.
+Close code: 4006
+23:08:54.736 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:08:54.748 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+23:08:55.156 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+23:08:57.888 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:57.889 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Disconnected.
+Close code: 4014
+23:08:58.083 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Sending resume payload...
+23:08:58.112 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - The Audio connection was closed!
+By remote? true
+23:08:58.112 [JDA [0 / 1] AudioWS-WriteThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Reason: Session is no longer valid.
+Close code: 4006
+23:08:58.270 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:08:58.281 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+23:08:58.708 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+23:09:00.642 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+23:09:00.643 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:09:00.645 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:09:00.646 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@36ea1d5b' to the list of builder helpers.
+23:09:00.646 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:09:00.647 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+23:09:00.799 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:09:00.878 [JDA [0 / 1] RateLimit-Worker 3] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7d3385d19c4d6-DUS]
+23:09:03.132 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+23:09:03.133 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:09:03.135 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:09:03.135 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@45c74799' to the list of builder helpers.
+23:09:03.136 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:09:03.136 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+23:09:03.316 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+23:09:03.746 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+23:09:05.526 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7d347d841c4d6-DUS]
+23:16:34.078 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+23:16:34.206 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:16:34.301 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:16:34.302 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+23:16:34.305 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:16:36.708 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7de59b954c4b8-DUS]
+23:16:36.757 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+23:16:37.206 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+23:16:37.207 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+23:16:37.208 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+23:16:37.210 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-3pw1\",{\"micros\":0.0}]"]
+23:16:37.352 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-3pw1\",{\"micros\":15372,\"calls\":[\"discord-sessions-prd-1-28\",{\"micros\":12549,\"calls\":[\"start_session\",{\"micros\":11312,\"calls\":[\"api-prd-main-k89f\",{\"micros\":8106,\"calls\":[\"get_user\",{\"micros\":3530},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":1718},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":1,\"calls\":[]}]}]}]"]
+23:16:37.356 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+23:16:37.400 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+23:16:37.401 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+23:16:45.662 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+23:16:45.662 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:16:45.675 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:16:45.675 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@282e0395' to the list of builder helpers.
+23:16:45.676 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:16:45.677 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+23:16:45.850 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:16:45.862 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7de92eb3fc4b8-DUS]
+23:16:47.867 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:16:49.887 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:16:51.906 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:16:53.925 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:16:55.943 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}
+23:17:21.875 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+23:17:21.876 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+23:17:21.878 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+23:17:21.878 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@9bf7f87' to the list of builder helpers.
+23:17:21.879 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+23:17:21.879 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+23:17:22.049 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50a7df750c39c4b8-DUS]
+23:17:22.052 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":"579340391938261003","channel_id":null,"self_mute":false}}

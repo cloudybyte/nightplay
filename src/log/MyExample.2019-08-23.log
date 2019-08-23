@@ -1,0 +1,255 @@
+19:31:20.797 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+19:31:20.951 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:31:21.071 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:31:21.072 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+19:31:21.074 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:31:22.955 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aed1cb3c82c4cc-DUS]
+19:31:22.980 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+19:31:23.441 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+19:31:23.442 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+19:31:23.443 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+19:31:23.444 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-m5fs\",{\"micros\":0.0}]"]
+19:31:23.656 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-m5fs\",{\"micros\":23746,\"calls\":[\"discord-sessions-prd-1-4\",{\"micros\":21529,\"calls\":[\"start_session\",{\"micros\":20071,\"calls\":[\"api-prd-main-2w1q\",{\"micros\":16123,\"calls\":[\"get_user\",{\"micros\":1664},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":1987},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":3,\"calls\":[]}]}]}]"]
+19:31:23.662 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+19:31:23.704 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+19:31:23.704 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+19:32:50.702 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:32:50.702 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:32:50.704 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:32:50.705 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@6d714190' to the list of builder helpers.
+19:32:50.705 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:32:50.705 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:32:50.731 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+19:32:50.882 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aed3f0c961c4cc-DUS]
+19:32:51.241 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+19:33:38.700 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:33:38.700 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:33:38.701 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:33:38.701 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@6efdd440' to the list of builder helpers.
+19:33:38.702 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:33:38.702 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:33:38.914 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+19:33:39.055 [JDA [0 / 1] MainWS-ReadThread] ERROR net.dv8tion.jda.core.JDA - One of the EventListeners had an uncaught exception
+java.lang.NullPointerException: null
+	at gq.not11.bot.commands.music.PlayCommand.run(PlayCommand.java:77)
+	at gq.not11.bot.core.command.CommandHandler.onGenericGuildMessage(CommandHandler.java:36)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:662)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:101)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+19:37:52.448 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+19:37:52.507 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:37:52.561 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:37:52.562 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@40005471' to the list of builder helpers.
+19:37:52.563 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:37:53.837 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedb562d5cc4d6-DUS]
+19:37:53.861 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+19:37:54.366 [JDA [0 / 1] MainWS-ReadThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+19:37:54.367 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+19:37:54.370 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+19:37:54.371 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-z4nz\",{\"micros\":0.0}]"]
+19:37:54.539 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-z4nz\",{\"micros\":13469,\"calls\":[\"discord-sessions-prd-1-2\",{\"micros\":11342,\"calls\":[\"start_session\",{\"micros\":10103,\"calls\":[\"api-prd-main-2w1q\",{\"micros\":6644,\"calls\":[\"get_user\",{\"micros\":2163},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":1711},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":1,\"calls\":[]},\"presence_connect\",{\"micros\":43,\"calls\":[]}]}]}]"]
+19:37:54.541 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+19:37:54.569 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+19:37:54.570 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+19:38:04.729 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+19:38:04.794 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:38:04.836 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:38:04.837 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+19:38:04.839 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:38:05.890 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedba1aa29c49a-DUS]
+19:38:05.914 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+19:38:06.388 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+19:38:06.389 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+19:38:06.389 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+19:38:06.391 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-r6m8\",{\"micros\":0.0}]"]
+19:38:06.596 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-r6m8\",{\"micros\":66644,\"calls\":[\"discord-sessions-prd-1-22\",{\"micros\":62773,\"calls\":[\"start_session\",{\"micros\":59133,\"calls\":[\"api-prd-main-s20n\",{\"micros\":55768,\"calls\":[\"get_user\",{\"micros\":19743},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":20360},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":547,\"calls\":[]}]}]}]"]
+19:38:06.597 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+19:38:06.623 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+19:38:06.624 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+19:38:18.420 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:38:18.420 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:38:18.422 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:38:18.422 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@7dabb240' to the list of builder helpers.
+19:38:18.422 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:38:18.422 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:38:18.484 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+19:38:18.689 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedbf0ffb6c49a-DUS]
+19:38:19.101 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+19:38:27.534 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:38:27.534 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:38:27.535 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:38:27.535 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@7ad06f0e' to the list of builder helpers.
+19:38:27.536 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:38:27.536 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:38:27.566 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+19:38:27.791 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedc2a6981c49a-DUS]
+19:40:08.253 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+19:40:08.316 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:40:08.364 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:40:08.365 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+19:40:08.367 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:40:09.334 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedea53d0fc4b8-DUS]
+19:40:09.361 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+19:40:09.797 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+19:40:09.798 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+19:40:09.799 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+19:40:09.800 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-cq5j\",{\"micros\":0.0}]"]
+19:40:09.954 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-cq5j\",{\"micros\":14760,\"calls\":[\"discord-sessions-prd-1-4\",{\"micros\":13431,\"calls\":[\"start_session\",{\"micros\":11202,\"calls\":[\"api-prd-main-v8bg\",{\"micros\":7979,\"calls\":[\"get_user\",{\"micros\":3156},\"add_authorized_ip\",{\"micros\":7},\"get_guilds\",{\"micros\":1862},\"coros_wait\",{\"micros\":2}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":0,\"calls\":[]}]}]}]"]
+19:40:09.956 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+19:40:09.984 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+19:40:09.985 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+19:40:33.448 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+19:40:33.525 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:40:33.579 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:40:33.580 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+19:40:33.582 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:40:34.629 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedf4358bdc4bd-DUS]
+19:40:34.654 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+19:40:35.058 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+19:40:35.059 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+19:40:35.060 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+19:40:35.061 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-3p16\",{\"micros\":0.0}]"]
+19:40:35.482 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-3p16\",{\"micros\":297778,\"calls\":[\"discord-sessions-prd-1-12\",{\"micros\":296197,\"calls\":[\"start_session\",{\"micros\":41108,\"calls\":[\"api-prd-main-vtd8\",{\"micros\":38002,\"calls\":[\"get_user\",{\"micros\":21088},\"add_authorized_ip\",{\"micros\":6},\"get_guilds\",{\"micros\":6322},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":254037,\"calls\":[]}]}]}]"]
+19:40:35.484 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+19:40:35.509 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+19:40:35.509 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+19:40:43.460 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:40:43.464 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:40:43.466 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:40:43.467 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@7544af30' to the list of builder helpers.
+19:40:43.467 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:40:43.467 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:40:43.655 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedf7b8812c4bd-DUS]
+19:40:43.708 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+19:40:44.170 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+19:40:47.073 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:40:47.073 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:40:47.074 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:40:47.075 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@6e53fc3d' to the list of builder helpers.
+19:40:47.075 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:40:47.075 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:40:47.102 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+19:40:47.321 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedf927822c4bd-DUS]
+19:40:56.426 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:40:56.426 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:40:56.427 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:40:56.428 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@34d71fc4' to the list of builder helpers.
+19:40:56.428 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:40:56.428 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:40:56.640 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedfcc7e10c4bd-DUS]
+19:41:01.281 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:41:01.282 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:41:01.284 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:41:01.284 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@548710ff' to the list of builder helpers.
+19:41:01.284 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:41:01.284 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:41:01.576 [JDA [0 / 1] RateLimit-Worker 3] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedfeacff9c4bd-DUS]
+19:41:03.469 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aedfecab5cc4bd-DUS]
+19:41:08.455 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:41:08.455 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:41:08.457 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:41:08.457 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@7d10bf9a' to the list of builder helpers.
+19:41:08.457 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:41:08.457 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:41:08.683 [JDA [0 / 1] RateLimit-Worker 4] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aee017ae60c4bd-DUS]
+19:41:08.986 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aee0191969c4bd-DUS]
+19:46:37.044 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+19:46:37.101 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:46:37.143 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:46:37.144 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+19:46:37.145 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:46:38.088 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aee822dceac4c2-DUS]
+19:46:38.113 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+19:46:38.574 [JDA [0 / 1] MainWS-ReadThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+19:46:38.575 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+19:46:38.577 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+19:46:38.578 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-156d\",{\"micros\":0.0}]"]
+19:46:38.732 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-156d\",{\"micros\":18110,\"calls\":[\"discord-sessions-prd-1-7\",{\"micros\":14554,\"calls\":[\"start_session\",{\"micros\":11909,\"calls\":[\"api-prd-main-6wk3\",{\"micros\":8503,\"calls\":[\"get_user\",{\"micros\":2005},\"add_authorized_ip\",{\"micros\":6},\"get_guilds\",{\"micros\":2536},\"coros_wait\",{\"micros\":2}]}]},\"guilds_connect\",{\"micros\":1,\"calls\":[]},\"presence_connect\",{\"micros\":0,\"calls\":[]}]}]}]"]
+19:46:38.734 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+19:46:38.764 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+19:46:38.764 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+19:46:46.393 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:46:46.398 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:46:46.400 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:46:46.400 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@6d06d8c7' to the list of builder helpers.
+19:46:46.401 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:46:46.402 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:46:46.611 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aee857fbe3c4c2-DUS]
+19:46:46.668 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+19:46:47.203 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+19:46:48.605 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:46:48.605 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:46:48.606 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:46:48.607 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@29cbb0da' to the list of builder helpers.
+19:46:48.607 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:46:48.607 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:46:48.801 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aee865baa0c4c2-DUS]
+19:46:49.003 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aee866fd69c4c2-DUS]
+19:46:57.384 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:46:57.385 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:46:57.387 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:46:57.387 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@1ec08690' to the list of builder helpers.
+19:46:57.387 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:46:57.387 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:46:57.414 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+19:46:57.703 [JDA [0 / 1] RateLimit-Worker 3] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aee89d0833c4c2-DUS]
+19:48:24.621 [main] DEBUG io.sentry.config.FileResourceLoader - The configuration file sentry.properties (which resolves to absolute path C:\Users\Ole\IdeaProjects\nexot - Kopie\src\sentry.properties) doesn't exist, is not a file or is not readable.
+19:48:24.690 [main] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:48:24.727 [main] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:48:24.727 [main] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@394df057' to the list of builder helpers.
+19:48:24.728 [main] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:48:25.819 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aeeac4282fc49a-DUS]
+19:48:25.843 [main] INFO  n.d.jda.bot.sharding.ShardManager - Login Successful!
+19:48:26.259 [JDA [0 / 1] MainWS-WriteThread] INFO  n.d.j.core.requests.WebSocketClient - Connected to WebSocket
+19:48:26.260 [JDA [0 / 1] MainWS-WriteThread] DEBUG n.d.j.core.requests.WebSocketClient - Sending Identify-packet...
+19:48:26.261 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+19:48:26.262 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for HELLO (OP: 10) with ["[\"gateway-prd-main-gbs0\",{\"micros\":0.0}]"]
+19:48:26.782 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.core.requests.WebSocketClient - Received a _trace for READY (OP: 0) with ["[\"gateway-prd-main-gbs0\",{\"micros\":394487,\"calls\":[\"discord-sessions-prd-1-6\",{\"micros\":387336,\"calls\":[\"start_session\",{\"micros\":20503,\"calls\":[\"api-prd-main-mqz5\",{\"micros\":17390,\"calls\":[\"get_user\",{\"micros\":3782},\"add_authorized_ip\",{\"micros\":5},\"get_guilds\",{\"micros\":9885},\"coros_wait\",{\"micros\":1}]}]},\"guilds_connect\",{\"micros\":2,\"calls\":[]},\"presence_connect\",{\"micros\":284550,\"calls\":[]}]}]}]"]
+19:48:26.783 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Setting incomplete count to 1
+19:48:26.809 [JDA [0 / 1] MainWS-ReadThread] INFO  net.dv8tion.jda.core.JDA - Finished Loading!
+19:48:26.809 [JDA [0 / 1] MainWS-ReadThread] DEBUG n.d.j.c.handle.GuildSetupController - Finished setup for guild 579340391938261003 firing cached events 0
+19:48:30.166 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:48:30.166 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:48:30.168 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:48:30.169 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@6ad179dd' to the list of builder helpers.
+19:48:30.170 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:48:30.170 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:48:31.434 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aeeae6ba3ac49a-DUS]
+19:48:31.653 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aeeae85d3ac49a-DUS]
+19:48:35.549 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:48:35.550 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:48:35.551 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:48:35.551 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@3d183c12' to the list of builder helpers.
+19:48:35.552 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:48:35.552 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:48:35.786 [JDA RateLimit-Worker 1] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aeeb020aeec49a-DUS]
+19:48:35.950 [JDA [0 / 1] RateLimit-Worker 3] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aeeb037e53c49a-DUS]
+19:48:38.541 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:48:38.542 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:48:38.543 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:48:38.543 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@7a07835f' to the list of builder helpers.
+19:48:38.543 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:48:38.543 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:48:38.750 [JDA [0 / 1] RateLimit-Worker 2] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aeeb14bd7dc49a-DUS]
+19:48:38.908 [JDA [0 / 1] Gateway-Worker 1] DEBUG n.d.j.core.requests.WebSocketClient - Sending voice request {"op":4,"d":{"self_deaf":false,"guild_id":579340391938261003,"channel_id":579340391938261007,"self_mute":false}}
+19:48:39.404 [JDA [0 / 1] AudioWS-ReadThread (guildId: 579340391938261003)] DEBUG n.d.jda.core.audio.AudioWebSocket - Using encryption mode xsalsa20_poly1305_lite
+19:48:53.082 [JDA [0 / 1] MainWS-ReadThread] DEBUG i.s.c.p.EnvironmentConfigurationProvider - Found dsn=https://e3cc36f41d8f489982da1df7d8556739@sentry.io/1537949 in System Environment Variables.
+19:48:53.082 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - Using an HTTPS connection to Sentry.
+19:48:53.083 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.DefaultSentryClientFactory - The current environment doesn't provide access to servlets, or provides an unsupported version.
+19:48:53.083 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClient - Adding 'io.sentry.event.helper.ContextBuilderHelper@223dbced' to the list of builder helpers.
+19:48:53.084 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - Configuring uncaught exception handler.
+19:48:53.084 [JDA [0 / 1] MainWS-ReadThread] DEBUG io.sentry.SentryClientFactory - default UncaughtExceptionHandler class='io.sentry.SentryUncaughtExceptionHandler'
+19:48:53.112 [JDA [0 / 1] MainWS-ReadThread] DEBUG c.s.d.l.tools.io.TrustManagerBuilder - Certificate list /certificates/extended.txt not present in classpath.
+19:48:53.375 [JDA [0 / 1] RateLimit-Worker 4] DEBUG n.d.jda.core.requests.Requester - Received response with following cf-rays: [50aeeb702a2fc49a-DUS]

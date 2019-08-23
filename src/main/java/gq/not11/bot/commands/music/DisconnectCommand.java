@@ -2,6 +2,8 @@ package gq.not11.bot.commands.music;
 
 import gq.not11.bot.core.command.Command;
 import gq.not11.bot.core.command.CommandEvent;
+import io.sentry.SentryClient;
+import io.sentry.SentryClientFactory;
 import net.dv8tion.jda.core.entities.Guild;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.VoiceChannel;
@@ -21,10 +23,15 @@ public class DisconnectCommand extends Command {
         Member member = raw.getMember();
         VoiceChannel vc = member.getVoiceState().getChannel();
         AudioManager audioManager = guild.getAudioManager();
+        SentryClient sentry = SentryClientFactory.sentryClient();
 
-        audioManager.closeAudioConnection();
-        raw.getChannel().sendMessage("Disconnected!").queue();
-
+        try {
+            audioManager.closeAudioConnection();
+            raw.getChannel().sendMessage("Disconnected!").queue();
+        }
+        catch (IllegalArgumentException e){
+            sentry.sendException(e);
+        }
         };
     }
 
