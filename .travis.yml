@@ -1,0 +1,6 @@
+# travis-ci config file
+
+language: java
+
+before_install:
+  - chmod +x gradlew
