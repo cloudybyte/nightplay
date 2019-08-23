@@ -4,3 +4,12 @@ language: java
 
 before_install:
   - chmod +x gradlew
+
+
+jdk:
+ - oraclejdk7
+
+sudo: required
+
+script:
+ - ./gradlew clean build -i --continue
