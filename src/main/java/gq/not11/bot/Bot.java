@@ -41,7 +41,7 @@ public class Bot {
 
         commandHandler = new CommandHandler(this);
         commandHandler.register(new PingCommand());
-       //commandHandler.register(new PlayCommand());
+        commandHandler.register(new PlayCommand());
         commandHandler.register(new JoinCommand());
         commandHandler.register(new DisconnectCommand());
         builder.addEventListeners(commandHandler);
