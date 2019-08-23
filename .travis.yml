@@ -1,0 +1,4 @@
+# travis-ci config file
+
+language: java
+
