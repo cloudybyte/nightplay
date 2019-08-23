@@ -7,7 +7,7 @@ before_install:
 
 
 jdk:
- - oraclejdk7
+ - oraclejdk11
 
 sudo: required
 
