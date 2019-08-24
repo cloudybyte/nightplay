@@ -3,6 +3,7 @@ package gq.not11.bot;
 import gq.not11.bot.commands.PingCommand;
 import gq.not11.bot.commands.music.DisconnectCommand;
 import gq.not11.bot.commands.music.JoinCommand;
+import gq.not11.bot.commands.music.PlayCommand;
 import gq.not11.bot.core.command.CommandHandler;
 import net.dv8tion.jda.bot.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.bot.sharding.ShardManager;
