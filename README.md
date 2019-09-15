@@ -14,3 +14,4 @@
  - .dc | Disconnects the bot from your voice channel
  - .up | Shows the current uptime of the bot
  - .ping | Shows you the current ping of the bot
+ - .info | Shows you info about the current host
